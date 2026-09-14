@@ -1,0 +1,16 @@
+def calculate_total(price, quantity):
+    total = price * quantity
+    return total
+
+
+def process_order(price, quantity):
+    result = calculate_total(price, quantity)
+    return result
+
+
+price = 100
+quantity = 3
+
+final_result = process_order(price, quantity)
+
+print(final_result)
