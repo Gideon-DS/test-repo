@@ -1,3 +1,7 @@
+def validate_quantity(quantity):
+    return quantity > 0
+
+
 def calculate_total(price, quantity):
     total = price * quantity
     return total
