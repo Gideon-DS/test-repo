@@ -12,7 +12,7 @@ def process_order(price, quantity):
     return result
 
 
-price = 2000
+price = 1000
 quantity = 3
 
 final_result = process_order(price, quantity)
