@@ -19,3 +19,4 @@ final_result = process_order(price, quantity)
 
 print(final_result)
 print("Change made from GitHub")
+print("Testing git fetch")
